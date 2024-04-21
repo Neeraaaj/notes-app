@@ -35,7 +35,7 @@ function EditNoteDialog({ setOpen, note }: Props) {
 
   return (
     <DialogContent className="sm:max-w-[425px]">
-      <DialogHeader>Edit Note</DialogHeader>
+      <DialogHeader className="text-black">Edit Note</DialogHeader>
 
       <form action={handleEditNote}>
         <Textarea
@@ -43,7 +43,7 @@ function EditNoteDialog({ setOpen, note }: Props) {
           name="text"
           disabled={isPending}
           defaultValue={note.text}
-          className="mb-6 mt-2 min-h-[300px]"
+          className="mb-6 mt-2 min-h-[300px] text-black"
         />
 
         <input type="text" hidden name="noteId" value={note.id} />

@@ -26,14 +26,14 @@ function NewNoteDialog({ setOpen }: Props) {
 
   return (
     <DialogContent className="sm:max-w-[425px]">
-      <DialogHeader>Add New Note</DialogHeader>
+      <DialogHeader className="text-black font-mono">Add New Note</DialogHeader>
 
       <form action={handleAddNewNote}>
         <Textarea
           id="text"
           name="text"
           disabled={isPending}
-          className="mb-6 mt-2 min-h-[300px]"
+          className="mb-6 mt-2 min-h-[300px] text-black"
         />
 
         <DialogFooter>
