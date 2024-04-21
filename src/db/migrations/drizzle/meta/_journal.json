@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1713711945781,
+      "tag": "0000_new_miracleman",
+      "breakpoints": true
+    }
+  ]
+}
